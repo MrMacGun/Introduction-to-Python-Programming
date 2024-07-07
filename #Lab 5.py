@@ -1,4 +1,4 @@
-#Lab 5.16 Leap Year
+#Lab 5.16
 #Program will take an input that calculates if it is or is not a leap year
 #Year must be divisable by 4
 
