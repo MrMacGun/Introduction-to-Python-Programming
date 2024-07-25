@@ -4,7 +4,7 @@
 #input must be greater than 0, output as x mod 2 and then assign x with x divided by 2
 
 value = input(int())
-    if value <= 0:
+if value <= 0:
         raise ValueError("Input must be a positive integer")
 
     binary_digits = []
