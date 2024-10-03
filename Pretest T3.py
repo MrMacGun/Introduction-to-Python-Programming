@@ -3,7 +3,7 @@
 
 various_data_types = [516, 112.49, True, "meow", ("Western", "Governors", "University"), {"apple": 1, "pear": 5}]
 
-user_index = int(input("Enter a number between 1-5 to see the class of an element within a list: "))
+user_index = int(input())
 
 element = various_data_types[user_index]
 print(f'Element {user_index}: {type(element).__name__} ')
