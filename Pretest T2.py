@@ -13,7 +13,3 @@ ounces = remaining_ounces % 16
 print(f'Tons: {tons}')
 print(f'Pounds: {pounds}') 
 print(f'Ounces: {ounces}')
-        
-
-
-
