@@ -1,5 +1,8 @@
-input_list = input(int())
+def int_to_reverse_binary(integer_value):
+    for i in range(8):
 
-list_nums = [int(i) for i in input_list.split() if 0 <= int(i) <= 50]
+    r = integer_number % 2 
+    integer_number = integer_number//2
+    
 
-print(' '.join(map(str, list_nums)))
+def string_reverse(input_string):
