@@ -1,0 +1,13 @@
+print("Enter integer (32 - 126):")
+uint = int(input())
+print("Enter float:")
+ufloat = float(input())
+print("Enter character:")
+uchar = input()
+print("Enter string:")
+ustr = str(input())
+
+print(uint, ufloat, uchar, ustr)
+print(ustr, uchar, ufloat, uint)
+num_char = chr(uint)
+print(f"{uint} converted to a character is {num_char}")
