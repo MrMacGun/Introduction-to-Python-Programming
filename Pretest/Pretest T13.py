@@ -5,16 +5,12 @@
 #The solution output should be in the format {'key': 'value', 'key': 'value', 'key': 'value'}
 import csv
 
-file_name1 = input()
+filename = input()
 
-if file_name1 is True:
-    with open(file_name1.txt) as f:
-        fn1r1 = str(f.readline().strip)
-        fn1r2 = str(f.readline().strip)
+with open(filename, 'r') as f:
+    line = csv.reader(f)
+    for l in line:
+        temp_list = [x.replace(' ', '') for x in l]
+        dictionary = zip(temp_list[::2], temp_list[1::2])
+        print(dict(dictionary))
 
-if file_name2 is True:
-    with open(file_name2.txt) as f:
-        fn2r1 = str(f.readline().strip)
-        fn2r2 = str(f.readline().strip)
-
-print(f"{fn1r1}{fn1r2}")

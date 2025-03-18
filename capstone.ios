@@ -1,0 +1,12 @@
+ip access-list extended 102
+permit tcp any any eq pop3
+permit udp any any eq 21
+
+interface vlan 110
+ip access-group 102 in
+
+ntp server 172.16.3.4
+logging host 172.16.3.4
+logging 172.16.3.4
+logging trap debugging
+logging on
